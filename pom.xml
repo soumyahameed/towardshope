@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.towardshope</groupId>
+	<artifactId>towardshope</artifactId>
+	<packaging>war</packaging>
+	<version>2.0</version>
+	<name>Towards Hope 2.0</name>
+	<url>http://www.towardshope.org</url>
+
+	<properties>
+		<spring.version>3.2.0.RELEASE</spring.version>
+		<junit.version>4.11</junit.version>
+		<jdk.version>1.6</jdk.version>
+	</properties>
+
+	<organization>
+		<name>Towards Hope Foundation</name>
+		<url>http://www.towardshope.org</url>
+	</organization>
+
+	<issueManagement>
+		<system>Birdview Projects</system>
+		<url>http://towardshopewebsite.birdviewprojects.com</url>
+	</issueManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>towardshope</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
