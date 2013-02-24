@@ -13,3 +13,10 @@
 
 # Maven build directory
 target
+
+# IntelliJ project files
+.idea
+*.iml
+
+# Mac OS X
+.DS_Store
