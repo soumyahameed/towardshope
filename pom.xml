@@ -19,6 +19,12 @@
 		<url>http://www.towardshope.org</url>
 	</organization>
 
+	<scm>
+		<connection>scm:git:https://github.com/duggudear/towardshope</connection>
+		<developerConnection>scm:git:https://github.com/duggudear/towardshope</developerConnection>
+		<url>https://github.com/duggudear/towardshope</url>
+	</scm>
+
 	<issueManagement>
 		<system>Birdview Projects</system>
 		<url>http://towardshopewebsite.birdviewprojects.com</url>
